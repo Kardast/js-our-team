@@ -34,3 +34,34 @@ const memberCards = [
 
 console.log(memberCards);
 
+let printCard = document.querySelector(".team-container");
+console.log(printCard);
+
+let divCard = document.createElement("div");
+divCard.classList.add("team-card");
+printCard.append(divCard);
+
+let divImage = document.createElement("div");
+divImage.classList.add("card-image");
+divCard.append(divImage);
+
+let imgTag = document.createElement("img");
+imgTag.src = "img/wayne-barnett-founder-ceo.jpg";
+imgTag.alt = "Wayne Barnett";
+divImage.append(imgTag);
+
+let divText = document.createElement("div");
+divText.classList.add("card-text");
+divCard.append(divText);
+
+let h3Tag = document.createElement("h3");
+divText.append(h3Tag);
+let h3Text = document.createTextNode("prova");
+h3Tag.append(h3Text);
+
+let pTag = document.createElement("p");
+divText.append(pTag);
+let pText = document.createTextNode("prova2");
+pTag.append(pText);
+
+
