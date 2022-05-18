@@ -15,6 +15,7 @@ Ogni membro ha le informazioni necessarie per stampare la relativa card: Nome, R
 <!-- OK -->
 
 Una volta definita la struttura dati, prendendo come riferimento la card di esempio presente nell’html, stampare dinamicamente una card per ogni membro del team.
+<!-- OK -->
 
 BONUS:
 Utilizzare gli input presenti nella pagina per permettere all’utente di aggiungere nuovi membri del team:
